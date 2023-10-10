@@ -41,7 +41,7 @@ const ContactForm: FC = memo(() => {
   );
 
   const inputClasses =
-    'bg-neutral-700 border-0 focus:border-0 focus:outline-none focus:ring-1 focus:ring-sky-600 rounded-md placeholder:text-neutral-400 placeholder:text-sm text-slate-200 text-sm';
+    'bg-slate-700 border-0 focus:border-0 focus:outline-none focus:ring-1 focus:ring-sky-600 rounded-md placeholder:text-slate-400 placeholder:text-sm text-slate-200 text-sm';
 
   return (
     <form className="grid min-h-[320px] grid-cols-1 gap-y-4" method="POST" onSubmit={handleSendMessage}>

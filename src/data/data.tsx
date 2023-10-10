@@ -382,7 +382,7 @@ export const testimonial: TestimonialSection = {
     {
       name: 'Lorinda Brandon',
       text: 'You great at supporting and mentoring and inspiring your team. You are always the first to applaud them, to lift the people around you and let them shine.',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
+      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/3.jpg',
     },
     {
       name: 'Daniel Breitigan',
@@ -392,18 +392,18 @@ export const testimonial: TestimonialSection = {
           'consistent environment for the team to thrive in. Clay\'s mentorship &\n' +
           'Advocacy has helped the team become more performant - they have gone\n' +
           'from an average performance to top tier performance team.',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
+      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/0.jpg',
     },
     {
       name: 'Lorinda Brandon',
       text: 'You know how to tackle a hard problem that is put in front of you and find solutions that meet the business needs but are efficient to deliver',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
+      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/3.jpg',
     },
     {
       name: 'Diego Piexoto',
       text: '[Clay\'s] great technical abilities both hands on and from the mentoring\n' +
           'aspect will continue to help him pave the way to the next chapter...',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
+      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
     },
 
   ],

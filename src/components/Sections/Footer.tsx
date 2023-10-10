@@ -14,7 +14,7 @@ const Footer: FC = memo(() => (
       </a>
     </div>
     <div className="flex flex-col items-center gap-y-6">
-      <div className="flex gap-x-4 text-neutral-500">
+      <div className="flex gap-x-4 text-slate-500">
         <Socials />
       </div>
       <a
@@ -26,7 +26,7 @@ const Footer: FC = memo(() => (
           <span className="italic text-yellow">Resume</span>
         </span>
       </a>
-      <span className="text-sm text-neutral-700">© Copyright {new Date().getFullYear()} Clay Mitchell</span>
+      <span className="text-sm text-slate-700">© Copyright {new Date().getFullYear()} Clay Mitchell</span>
     </div>
   </div>
 ));

@@ -386,11 +386,11 @@ export const testimonial: TestimonialSection = {
     },
     {
       name: 'Daniel Breitigan',
-      text: 'Clay has done a great job assisting in the growth of [his teams] /\n' +
-          'Clay has been a rock through all the changes the team\n' +
-          'has gone through in the past year. He\'s created stability and a\n' +
-          'consistent environment for the team to thrive in. Clay\'s mentorship &\n' +
-          'Advocacy has helped the team become more performant - they have gone\n' +
+      text: 'Clay has done a great job assisting in the growth of [his teams]. ' +
+          'Clay has been a rock through all the changes the team' +
+          'has gone through in the past year. He\'s created stability and a' +
+          'consistent environment for the team to thrive in. Clay\'s mentorship &' +
+          'Advocacy has helped the team become more performant - they have gone' +
           'from an average performance to top tier performance team.',
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/0.jpg',
     },

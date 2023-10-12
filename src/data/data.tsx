@@ -79,7 +79,7 @@ export const heroData: Hero = {
         the <strong>data</strong> to the <strong>UI</strong>.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm also an avid <strong>book</strong> reader, an aspiring <strong>guitar</strong> player, and I love to
+        I'm also an avid <strong>book</strong> reader, an aspiring <strong>guitarist</strong>, and I love to
         watch and play <strong>sports</strong>.
       </p>
     </>
@@ -326,11 +326,11 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
-    date: 'January 2022 - Present',
+    date: 'Jan 2022 - Present',
     location: 'BetterCloud',
     title: 'Principal Engineer - Platform and IAM',
     content: (
-      <ul className="ml-3 list-disc list-inside">
+      <ul className="ml-3 list-disc list-outside">
         <li>Responsible for technical design and architecture of multiple products deployed across Google Cloud Platform</li>
         <li>Supported teams dedicated to authentication, authorization, process automation, and workflows.</li>
         <li>Mentor and coach for multiple teams, including highest performing team at BetterCloud</li>
@@ -345,20 +345,20 @@ export const experience: TimelineItem[] = [
     ),
   },
   {
-    date: 'July 2010 - December 2021',
+    date: 'Jul 2010 - Dec 2021',
     location: 'Bank of America',
-    title: 'Solutions Architect, Lead Developer',
+    title: 'Solutions Architect, Lead Dev',
     content: (
       <ul>
         <li className="font-semibold">Solutions Architect – CreditSync</li>
-        <ul className="ml-3 list-disc list-inside">
+        <ul className="ml-3 list-disc list-outside">
           <li>Responsible for overall technical design of project, including UI, API, and database tiers. Tech stack: Angular / Spring Boot / Oracle</li>
           <li>Defined and led integration with enterprise services, including authentication, authorization, and secrets management such as OAuth2+PKCE, HashiCorp Secrets Vault</li>
           <li>Mentored teammates, negotiated with Product Owners, taught REST API design, prototyped and introduced new technologies to team</li>
           <li>Performed code reviews, provided Agile development consulting, DevOps integration, acted as developer of last resort for exceptional technical problems</li>
         </ul>
         <li className="font-semibold">Solutions Architect / Lead Developer - SecureDocs</li>
-        <ul className="ml-3 list-disc list-inside">
+        <ul className="ml-3 list-disc list-outside">
           <li>Lead development resource for implementation of new vendor product</li>
           <li>Designed APIs and developed multiple utilities for integrating with external systems and processes</li>
           <li>Worked with vendor to define new functionality</li>
@@ -368,7 +368,7 @@ export const experience: TimelineItem[] = [
           <li>Implemented and directed numerous performance enhancements</li>
         </ul>
         <li className="font-semibold">Development Lead and Application Manager for BBS and Client Profitability apps</li>
-        <ul className="ml-3 list-disc list-inside">
+        <ul className="ml-3 list-disc list-outside">
           <li>Led development on legacy J2EE application on a Spring / Weblogic / Oracle + Netezza stack</li>
           <li>Designed and developed new features, coordinated releases, oversaw testing</li>
         </ul>

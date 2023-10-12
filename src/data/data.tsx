@@ -200,6 +200,10 @@ export const skills: SkillGroup[] = [
         name: 'Postgres',
         level: 3,
       },
+      {
+        name: 'GraphQL',
+        level: 3,
+      },
     ],
   },
   {

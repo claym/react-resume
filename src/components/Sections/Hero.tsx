@@ -15,7 +15,7 @@ const Hero: FC = memo(() => {
       <div className="relative flex h-screen w-full items-center justify-center">
         <Image
           alt={`${name}-image`}
-          className="absolute z-0 h-full w-full object-cover object-right"
+          className="absolute z-0 h-full w-full object-cover object-right -mt-24"
           placeholder="blur"
           priority
           src={imageSrc}

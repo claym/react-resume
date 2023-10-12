@@ -385,7 +385,8 @@ export const testimonial: TestimonialSection = {
   testimonials: [
     {
       name: 'Lorinda Brandon',
-      text: 'You great at supporting and mentoring and inspiring your team. You are always the first to applaud them, to lift the people around you and let them shine.',
+      text: 'You great at supporting and mentoring and inspiring your team. You are always the first to applaud them, to lift the people around you and let them shine ' +
+          '...You know how to tackle a hard problem that is put in front of you and find solutions that meet the business needs but are efficient to deliver',
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/3.jpg',
     },
     {
@@ -397,11 +398,6 @@ export const testimonial: TestimonialSection = {
           'Advocacy has helped the team become more performant - they have gone' +
           'from an average performance to top tier performance team.',
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/0.jpg',
-    },
-    {
-      name: 'Lorinda Brandon',
-      text: 'You know how to tackle a hard problem that is put in front of you and find solutions that meet the business needs but are efficient to deliver',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/3.jpg',
     },
     {
       name: 'Diego Piexoto',

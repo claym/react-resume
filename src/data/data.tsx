@@ -333,14 +333,14 @@ export const experience: TimelineItem[] = [
       <ul className="ml-3 list-disc list-outside">
         <li>Responsible for technical design and architecture of multiple products deployed across Google Cloud Platform</li>
         <li>Supported teams dedicated to authentication, authorization, process automation, and workflows.</li>
-        <li>Mentor and coach for multiple teams, including highest performing team at BetterCloud</li>
+        <li>Mentor and coach for multiple teams, including highest performing team at BetterCloud. This team delivered 20% ahead of schedule and used as a model for design and planning</li>
         <li>Worked with product owners and UX teams to define solutions for both internal and external customers.</li>
         <li>Designed and delivered distributed deletion process across dozens of data sources and over 100 microservices to comply with GDPR, CCPA, and contractual obligations</li>
-        <li>Overhauled existing system to maintain authentication tokens using distributed locking to provide a more stable and consistent product</li>
-        <li>Designed (both technical and product) generic webhook consumer to power automations and workflows</li>
+        <li>Overhauled existing system to maintain authentication tokens using distributed locking to provide a more stable and consistent product, removing need for customer action</li>
+        <li>Designed (both technical and product) generic webhook consumer to power automations and workflows delivering functionality to customers representing 23.7M ARR</li>
         <li>POC, design, and delivery of cloud DLP process for sanitizing and protecting customer data</li>
-        <li>Design and delivery of shared authentication integrations for SharePoint, BambooHR, and Slack EG APIs</li>
-        <li>Responsible for design of company-wide effort to integrate IDP custom data into existing ingestion system</li>
+        <li>Design and delivery of shared authentication integrations for SharePoint ($145K added ARR in 90 days), BambooHR (reached 90 day adoption goal in 30 days, at 1.7M ARR in 2023), and Slack EG APIs</li>
+        <li>Responsible for design of company-wide effort to integrate IDP custom data into existing ingestion system, delivered 30 days ahead of schedule</li>
       </ul>
     ),
   },

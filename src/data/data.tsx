@@ -337,7 +337,7 @@ export const experience: TimelineItem[] = [
         <li>Worked with product owners and UX teams to define solutions for both internal and external customers.</li>
         <li>Designed and delivered distributed deletion process across dozens of data sources and over 100 microservices to comply with GDPR, CCPA, and contractual obligations</li>
         <li>Overhauled existing system to maintain authentication tokens using distributed locking to provide a more stable and consistent product, removing need for customer action</li>
-        <li>Designed (both technical and product) generic webhook consumer to power automations and workflows delivering functionality to customers representing 23.7M ARR</li>
+        <li>Designed (both technical and product) generic webhook consumer to power 3-400K workflows a month, delivering automation functionality to customers representing 23.7M ARR</li>
         <li>POC, design, and delivery of cloud DLP process for sanitizing and protecting customer data</li>
         <li>Design and delivery of shared authentication integrations for SharePoint ($145K added ARR in 90 days), BambooHR (reached 90 day adoption goal in 30 days, at 1.7M ARR in 2023), and Slack EG APIs</li>
         <li>Responsible for design of company-wide effort to integrate IDP custom data into existing ingestion system, delivered 30 days ahead of schedule</li>

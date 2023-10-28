@@ -46,7 +46,7 @@ import {
  */
 export const homePageMeta: HomepageMeta = {
   title: 'Clay Mitchell',
-  description: "Software Developer and Architect",
+  description: "Software Developer and Architect in Charlotte NC",
 };
 
 /**

@@ -11,7 +11,7 @@ const Page: NextPage<PropsWithChildren<HomepageMeta>> = memo(({children, title, 
   return (
     <>
       <Head>
-        <title>{title}</title>
+        <title>{`${title} - ${description}`}</title>
         <meta content={description} name="description" />
 
         {/* several domains list the same content, make sure google knows we mean this one. */}

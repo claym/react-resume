@@ -335,7 +335,7 @@ export const experience: TimelineItem[] = [
         <li>Supported teams dedicated to authentication, authorization, process automation, and workflows.</li>
         <li>Mentor and coach for multiple teams, including highest performing team at BetterCloud. This team delivered 20% ahead of schedule and used as a model for design and planning</li>
         <li>Worked with product owners and UX teams to define solutions for both internal and external customers.</li>
-        <li>Designed and delivered distributed deletion process across dozens of data sources and over 100 microservices to comply with GDPR, CCPA, and contractual obligations</li>
+        <li>Designed and delivered distributed deletion process across dozens of data sources and over 100 microservices to comply with GDPR, CCPA, and contractual obligations, contributing to a perfect SOC/ISO score</li>
         <li>Overhauled existing system to maintain authentication tokens using distributed locking to provide a more stable and consistent product, removing need for customer action</li>
         <li>Designed (both technical and product) generic webhook consumer to power 3-400K workflows a month, delivering automation functionality to customers representing 23.7M ARR</li>
         <li>POC, design, and delivery of cloud DLP process for sanitizing and protecting customer data</li>

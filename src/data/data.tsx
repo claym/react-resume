@@ -201,6 +201,10 @@ export const skills: SkillGroup[] = [
         level: 3,
       },
       {
+        name: 'DynamoDB',
+        level: 3,
+      },
+      {
         name: 'GraphQL',
         level: 3,
       },

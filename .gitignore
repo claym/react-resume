@@ -34,3 +34,9 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+# oh-my-claudecode state
+.omc/
+
+# git worktrees
+.worktrees/

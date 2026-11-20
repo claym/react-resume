@@ -1,6 +1,6 @@
 # Repository guidance
 
-Personal resume site for Clay Mitchell (claymitchell.net), forked from `tbakerx/react-resume-template`. Next.js 13 (Pages Router) + React 18 + TypeScript + Tailwind, Yarn with `nodeLinker: node-modules`. Single static page; no tests, no API routes.
+Personal resume site for Clay Mitchell (claymitchell.net), forked from `tbakerx/react-resume-template`. Next.js 14 (Pages Router) + React 18 + TypeScript + Tailwind, Yarn with `nodeLinker: node-modules`. Single static page; no tests, no API routes.
 
 ## Commands
 

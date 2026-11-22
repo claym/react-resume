@@ -130,15 +130,12 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'English',
-        level: 10,
       },
       {
         name: 'French',
-        level: 4,
       },
       {
         name: 'Spanish',
-        level: 3,
       },
     ],
   },
@@ -148,19 +145,15 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'React',
-        level: 9,
       },
       {
         name: 'JavaScript/Typescript',
-        level: 7,
       },
       {
         name: 'HTML',
-        level: 6,
       },
       {
         name: 'CSS',
-        level: 6,
       },
     ],
   },
@@ -169,19 +162,15 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'Node.js',
-        level: 8,
       },
       {
         name: 'Java',
-        level: 5,
       },
       {
         name: '.NET',
-        level: 4,
       },
       {
         name: 'Python',
-        level: 4,
       },
     ],
   },
@@ -190,23 +179,18 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'SQL',
-        level: 9,
       },
       {
         name: 'Oracle',
-        level: 4,
       },
       {
         name: 'Postgres',
-        level: 3,
       },
       {
         name: 'DynamoDB',
-        level: 3,
       },
       {
         name: 'GraphQL',
-        level: 3,
       },
     ],
   },
@@ -215,23 +199,18 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'REST',
-        level: 9,
       },
       {
         name: 'Microservices',
-        level: 4,
       },
       {
         name: 'Architectural Patterns',
-        level: 3,
       },
       {
         name: 'Cloud (AWS, GCP)',
-        level: 3,
       },
       {
         name: 'Docker & Kubernetes',
-        level: 3,
       },
     ],
   },

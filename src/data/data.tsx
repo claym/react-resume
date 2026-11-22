@@ -141,77 +141,87 @@ export const skills: SkillGroup[] = [
   },
   */
   {
-    name: 'Frontend development',
+    name: 'AI-Native Development',
     skills: [
-      {
-        name: 'React',
-      },
-      {
-        name: 'JavaScript/Typescript',
-      },
-      {
-        name: 'HTML',
-      },
-      {
-        name: 'CSS',
-      },
+      {name: 'Claude'},
+      {name: 'Codex'},
+      {name: 'Cursor'},
+      {name: 'Gemini'},
+      {name: 'Warp'},
+      {name: 'agentic workflows'},
+      {name: 'context engineering'},
+      {name: 'custom agent skills'},
+      {name: 'AI guardrails'},
+      {name: 'skill and plugin evaluation'},
+      {name: 'team standards and adoption'},
     ],
   },
   {
-    name: 'Backend development',
+    name: 'Architecture',
     skills: [
-      {
-        name: 'Node.js',
-      },
-      {
-        name: 'Java',
-      },
-      {
-        name: '.NET',
-      },
-      {
-        name: 'Python',
-      },
+      {name: 'Microservices'},
+      {name: 'REST'},
+      {name: 'GraphQL'},
+      {name: 'distributed systems'},
+      {name: 'technical roadmaps'},
     ],
   },
   {
-    name: 'Database',
+    name: 'Identity & Security',
     skills: [
-      {
-        name: 'SQL',
-      },
-      {
-        name: 'Oracle',
-      },
-      {
-        name: 'Postgres',
-      },
-      {
-        name: 'DynamoDB',
-      },
-      {
-        name: 'GraphQL',
-      },
+      {name: 'OAuth2'},
+      {name: 'OIDC'},
+      {name: 'SAML'},
+      {name: 'PKCE'},
+      {name: 'Ory Kratos'},
+      {name: 'HashiCorp Vault'},
+      {name: 'HIPAA/SOC 2/GDPR compliance'},
     ],
   },
   {
-    name: 'Other',
+    name: 'Languages',
     skills: [
-      {
-        name: 'REST',
-      },
-      {
-        name: 'Microservices',
-      },
-      {
-        name: 'Architectural Patterns',
-      },
-      {
-        name: 'Cloud (AWS, GCP)',
-      },
-      {
-        name: 'Docker & Kubernetes',
-      },
+      {name: 'Java (Spring, Spring Boot, JPA)'},
+      {name: 'Go'},
+      {name: 'JavaScript/TypeScript (Node.js, ReactJS)'},
+      {name: 'Python'},
+      {name: 'C#/.NET'},
+      {name: 'PowerShell'},
+    ],
+  },
+  {
+    name: 'Cloud, DevOps & Reliability',
+    skills: [
+      {name: 'AWS'},
+      {name: 'GCP'},
+      {name: 'Docker'},
+      {name: 'Kubernetes'},
+      {name: 'Terraform'},
+      {name: 'GitHub Actions'},
+      {name: 'CircleCI'},
+      {name: 'Jenkins'},
+      {name: 'Ansible'},
+      {name: 'Grafana'},
+      {name: 'PagerDuty'},
+      {name: 'Jira Service Management'},
+      {name: 'Linux'},
+    ],
+  },
+  {
+    name: 'Data & Integration',
+    skills: [
+      {name: 'Oracle'},
+      {name: 'PostgreSQL'},
+      {name: 'SQL Server'},
+      {name: 'DynamoDB'},
+      {name: 'Kafka'},
+    ],
+  },
+  {
+    name: 'Testing',
+    skills: [
+      {name: 'unit testing with mocks'},
+      {name: 'integration testing in test environments'},
     ],
   },
 ];

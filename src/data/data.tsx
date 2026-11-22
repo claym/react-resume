@@ -46,7 +46,7 @@ import {
  */
 export const homePageMeta: HomepageMeta = {
   title: 'Clay Mitchell',
-  description: "Software Architect and full-stack engineer in Charlotte NC",
+  description: 'Software Architect and full-stack engineer in Charlotte NC',
 };
 
 /**
@@ -74,14 +74,14 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Charlotte, NC based <strong className="text-stone-100">Software Architect</strong> and full-stack
-        engineer with 20+ years of experience building end-to-end systems in <strong>finance</strong>,{' '}
-        <strong>healthcare</strong> and <strong>SaaS</strong>, from the <strong>data</strong> to the{' '}
-        <strong>UI</strong>.
+        I'm a Charlotte, NC based <strong className="text-stone-100">Software Architect</strong> and full-stack engineer
+        with 20+ years of experience building end-to-end systems in <strong>finance</strong>,{' '}
+        <strong>healthcare</strong> and <strong>SaaS</strong>, from the <strong>data</strong> to the <strong>UI</strong>
+        .
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm also an avid <strong>book</strong> reader, an aspiring <strong>guitarist</strong>, and I love to
-        watch and play <strong>sports</strong>.
+        I'm also an avid <strong>book</strong> reader, an aspiring <strong>guitarist</strong>, and I love to watch and
+        play <strong>sports</strong>.
       </p>
     </>
   ),
@@ -210,20 +210,11 @@ export const skills: SkillGroup[] = [
   },
   {
     name: 'Data & Integration',
-    skills: [
-      {name: 'Oracle'},
-      {name: 'PostgreSQL'},
-      {name: 'SQL Server'},
-      {name: 'DynamoDB'},
-      {name: 'Kafka'},
-    ],
+    skills: [{name: 'Oracle'}, {name: 'PostgreSQL'}, {name: 'SQL Server'}, {name: 'DynamoDB'}, {name: 'Kafka'}],
   },
   {
     name: 'Testing',
-    skills: [
-      {name: 'unit testing with mocks'},
-      {name: 'integration testing in test environments'},
-    ],
+    skills: [{name: 'unit testing with mocks'}, {name: 'integration testing in test environments'}],
   },
 ];
 
@@ -303,7 +294,6 @@ export const portfolioItems: PortfolioItem[] = [
  * Resume section -- TODO: Standardize resume contact format or offer MDX
  */
 export const education: TimelineItem[] = [
-
   {
     date: 'April 2007',
     location: 'Clown college',
@@ -325,15 +315,45 @@ export const experience: TimelineItem[] = [
     title: 'Senior Software Engineer',
     content: (
       <ul className="ml-3 list-disc list-outside">
-        <li>Led the incremental migration of 6 million users from Auth0 to in-house authentication system, designing and personally coding a Python based migration process that had no password resets and no downtime</li>
-        <li>Led the IAM team's shift to AI-native development with Claude and Cursor: set the standards and tooling, evaluated agent skills and plugins, wrote the context and guardrail documents agents used to write features and tests, built custom skills that walk engineers from design to tests, and mentored engineers on the new workflow</li>
-        <li>Built HIPAA rules for handling PHI into the team's AI guardrails, so agent-written code followed the logging and audit requirements by default</li>
-        <li>Drove cross-team design for the OTP, signup and login systems, aligning mobile, web and backend teams on one approach</li>
-        <li>Architected and built a one-time passcode (OTP) system in Go, covering code request, delivery by email and SMS, and redemption</li>
-        <li>Drove security hardening across the platform, designing and building rate limiting and brute-force protection for signup, login and OTP redemption</li>
-        <li>Built Grafana dashboards and alerts for the OTP and rate-limiting systems, giving the team visibility into auth traffic, abuse patterns and delivery failures</li>
-        <li>Served in the on-call rotation for authentication services and drove incident response through PagerDuty and Jira Service Management</li>
-        <li>Delivered an internal identity provider built on Ory Kratos for patient and member login on a HIPAA-governed platform handling thousands of signups and hundreds of thousands of logins a day, keeping members connected to their medical care</li>
+        <li>
+          Led the incremental migration of 6 million users from Auth0 to in-house authentication system, designing and
+          personally coding a Python based migration process that had no password resets and no downtime
+        </li>
+        <li>
+          Led the IAM team's shift to AI-native development with Claude and Cursor: set the standards and tooling,
+          evaluated agent skills and plugins, wrote the context and guardrail documents agents used to write features
+          and tests, built custom skills that walk engineers from design to tests, and mentored engineers on the new
+          workflow
+        </li>
+        <li>
+          Built HIPAA rules for handling PHI into the team's AI guardrails, so agent-written code followed the logging
+          and audit requirements by default
+        </li>
+        <li>
+          Drove cross-team design for the OTP, signup and login systems, aligning mobile, web and backend teams on one
+          approach
+        </li>
+        <li>
+          Architected and built a one-time passcode (OTP) system in Go, covering code request, delivery by email and
+          SMS, and redemption
+        </li>
+        <li>
+          Drove security hardening across the platform, designing and building rate limiting and brute-force protection
+          for signup, login and OTP redemption
+        </li>
+        <li>
+          Built Grafana dashboards and alerts for the OTP and rate-limiting systems, giving the team visibility into
+          auth traffic, abuse patterns and delivery failures
+        </li>
+        <li>
+          Served in the on-call rotation for authentication services and drove incident response through PagerDuty and
+          Jira Service Management
+        </li>
+        <li>
+          Delivered an internal identity provider built on Ory Kratos for patient and member login on a HIPAA-governed
+          platform handling thousands of signups and hundreds of thousands of logins a day, keeping members connected to
+          their medical care
+        </li>
         <li>Built federation services for OAuth2, OIDC and SAML, plus social sign-in with Google and Apple</li>
         <li>Spearheaded a ReactJS-based UI for managing inbound SSO connections, from design through implementation</li>
       </ul>
@@ -345,13 +365,33 @@ export const experience: TimelineItem[] = [
     title: 'Principal Engineer',
     content: (
       <ul className="ml-3 list-disc list-outside">
-        <li>Designed a generic webhook consumer, covering both the technical and product design, that runs 400K workflows a month and delivers automation to customers representing $23.7M ARR</li>
-        <li>Designed and delivered a distributed deletion process across dozens of data sources and 100+ microservices to meet GDPR, CCPA and contractual obligations, contributing to a perfect SOC/ISO audit score</li>
-        <li>Built shared authentication integrations for SharePoint ($145K added ARR in 90 days), BambooHR (hit its 90-day adoption goal in 30 days; $1.7M ARR in 2023) and the Slack Enterprise Grid APIs</li>
-        <li>Rebuilt authentication-token management with distributed locking, which made the product more stable and removed a step customers previously had to take</li>
-        <li>Led the design of a company-wide effort to integrate custom IdP data into the ingestion system, delivered 30 days ahead of schedule</li>
-        <li>Led the proof of concept, design and delivery of a cloud DLP process to sanitize and protect customer data</li>
-        <li>Mentored several teams, including BetterCloud's highest-performing team, which delivered 20% ahead of schedule and became the model for design and planning</li>
+        <li>
+          Designed a generic webhook consumer, covering both the technical and product design, that runs 400K workflows
+          a month and delivers automation to customers representing $23.7M ARR
+        </li>
+        <li>
+          Designed and delivered a distributed deletion process across dozens of data sources and 100+ microservices to
+          meet GDPR, CCPA and contractual obligations, contributing to a perfect SOC/ISO audit score
+        </li>
+        <li>
+          Built shared authentication integrations for SharePoint ($145K added ARR in 90 days), BambooHR (hit its 90-day
+          adoption goal in 30 days; $1.7M ARR in 2023) and the Slack Enterprise Grid APIs
+        </li>
+        <li>
+          Rebuilt authentication-token management with distributed locking, which made the product more stable and
+          removed a step customers previously had to take
+        </li>
+        <li>
+          Led the design of a company-wide effort to integrate custom IdP data into the ingestion system, delivered 30
+          days ahead of schedule
+        </li>
+        <li>
+          Led the proof of concept, design and delivery of a cloud DLP process to sanitize and protect customer data
+        </li>
+        <li>
+          Mentored several teams, including BetterCloud's highest-performing team, which delivered 20% ahead of schedule
+          and became the model for design and planning
+        </li>
       </ul>
     ),
   },
@@ -364,9 +404,18 @@ export const experience: TimelineItem[] = [
         <li className="font-semibold">Solutions Architect / Tech Lead – CreditSync</li>
         <ul className="ml-3 list-disc list-outside">
           <li>Owned the technical design across the UI, API and database tiers (Angular, Java, Spring Boot, Oracle)</li>
-          <li>Designed and led integration with enterprise authentication, authorization and secrets management (OAuth2 with PKCE, HashiCorp Vault)</li>
-          <li>Taught REST API design, mentored teammates, worked with product owners on scope, and prototyped and introduced new technologies</li>
-          <li>Ran code reviews, consulted on Agile practices and DevOps integration, and served as escalation engineer for the hardest technical problems</li>
+          <li>
+            Designed and led integration with enterprise authentication, authorization and secrets management (OAuth2
+            with PKCE, HashiCorp Vault)
+          </li>
+          <li>
+            Taught REST API design, mentored teammates, worked with product owners on scope, and prototyped and
+            introduced new technologies
+          </li>
+          <li>
+            Ran code reviews, consulted on Agile practices and DevOps integration, and served as escalation engineer for
+            the hardest technical problems
+          </li>
         </ul>
         <li className="font-semibold">Solutions Architect / Tech Lead – SecureDocs</li>
         <ul className="ml-3 list-disc list-outside">
@@ -376,7 +425,10 @@ export const experience: TimelineItem[] = [
         </ul>
         <li className="font-semibold">UI/UX Development Tech Lead on Banking CRM</li>
         <ul className="ml-3 list-disc list-outside">
-          <li>Led UI development on a heavily customized Microsoft Dynamics application, focusing on usability and performance</li>
+          <li>
+            Led UI development on a heavily customized Microsoft Dynamics application, focusing on usability and
+            performance
+          </li>
           <li>Worked with the UX team and interviewed users and subject-matter experts to define UI requirements</li>
         </ul>
       </ul>
@@ -398,9 +450,18 @@ export const experience: TimelineItem[] = [
     title: 'Earlier Experience',
     content: (
       <ul className="ml-3 list-disc list-outside">
-        <li>Bank of America, Senior Software Engineer (2007): designed and led development of a Java customer onboarding application</li>
-        <li>Xpient Solutions, Software Engineer (2006–2007): added Oracle support to a Java database product and built a C# reporting application</li>
-        <li>Bank of America, Software Engineer (2000–2006): built Java/J2EE CRM systems and drove early adoption of Spring, Hibernate and Ajax</li>
+        <li>
+          Bank of America, Senior Software Engineer (2007): designed and led development of a Java customer onboarding
+          application
+        </li>
+        <li>
+          Xpient Solutions, Software Engineer (2006–2007): added Oracle support to a Java database product and built a
+          C# reporting application
+        </li>
+        <li>
+          Bank of America, Software Engineer (2000–2006): built Java/J2EE CRM systems and drove early adoption of
+          Spring, Hibernate and Ajax
+        </li>
       </ul>
     ),
   },
@@ -425,9 +486,7 @@ export const experience: TimelineItem[] = [
     date: '2017',
     location: 'NFL',
     title: 'NFL Sideline Wi-Fi Technician',
-    content: (
-      <p>Kept coaching devices connected on game days</p>
-    ),
+    content: <p>Kept coaching devices connected on game days</p>,
   },
 ];
 
@@ -439,27 +498,29 @@ export const testimonial: TestimonialSection = {
   testimonials: [
     {
       name: 'Lorinda Brandon',
-      text: 'You great at supporting and mentoring and inspiring your team. You are always the first to applaud them, to lift the people around you and let them shine ' +
-          '...You know how to tackle a hard problem that is put in front of you and find solutions that meet the business needs but are efficient to deliver',
+      text:
+        'You great at supporting and mentoring and inspiring your team. You are always the first to applaud them, to lift the people around you and let them shine ' +
+        '...You know how to tackle a hard problem that is put in front of you and find solutions that meet the business needs but are efficient to deliver',
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/3.jpg',
     },
     {
       name: 'Daniel Breitigan',
-      text: 'Clay has done a great job assisting in the growth of [his teams]. ' +
-          'Clay has been a rock through all the changes the team' +
-          'has gone through in the past year. He\'s created stability and a' +
-          'consistent environment for the team to thrive in. Clay\'s mentorship &' +
-          'Advocacy has helped the team become more performant - they have gone' +
-          'from an average performance to top tier performance team.',
+      text:
+        'Clay has done a great job assisting in the growth of [his teams]. ' +
+        'Clay has been a rock through all the changes the team' +
+        "has gone through in the past year. He's created stability and a" +
+        "consistent environment for the team to thrive in. Clay's mentorship &" +
+        'Advocacy has helped the team become more performant - they have gone' +
+        'from an average performance to top tier performance team.',
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/0.jpg',
     },
     {
       name: 'Diego Piexoto',
-      text: '[Clay\'s] great technical abilities both hands on and from the mentoring\n' +
-          'aspect will continue to help him pave the way to the next chapter...',
+      text:
+        "[Clay's] great technical abilities both hands on and from the mentoring\n" +
+        'aspect will continue to help him pave the way to the next chapter...',
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
     },
-
   ],
 };
 
@@ -469,7 +530,7 @@ export const testimonial: TestimonialSection = {
 
 export const contact: ContactSection = {
   headerText: 'Get in touch.',
-  description: 'Feel free to reach out. Let\'s chat!',
+  description: "Feel free to reach out. Let's chat!",
   items: [
     {
       type: ContactType.Email,

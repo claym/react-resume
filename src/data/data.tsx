@@ -46,7 +46,7 @@ import {
  */
 export const homePageMeta: HomepageMeta = {
   title: 'Clay Mitchell',
-  description: "Software Developer and Architect in Charlotte NC",
+  description: "Software Architect and full-stack engineer in Charlotte NC",
 };
 
 /**
@@ -74,9 +74,10 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Charlotte, NC based <strong className="text-stone-100">Software Developer</strong>, with extensive
-        experience designing building <strong>enterprise</strong> scale and <strong>cloud</strong> based systems from
-        the <strong>data</strong> to the <strong>UI</strong>.
+        I'm a Charlotte, NC based <strong className="text-stone-100">Software Architect</strong> and full-stack
+        engineer with 20+ years of experience building end-to-end systems in <strong>finance</strong>,{' '}
+        <strong>healthcare</strong> and <strong>SaaS</strong>, from the <strong>data</strong> to the{' '}
+        <strong>UI</strong>.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         I'm also an avid <strong>book</strong> reader, an aspiring <strong>guitarist</strong>, and I love to
@@ -86,7 +87,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: 'https://drive.google.com/file/d/1SVThxJBAziCSay4fsWJ1560MdkNOAGlo/view',
+      href: 'https://docs.google.com/document/d/1Po16JolX3B_ROyW_BDGcexEZH7MVOzWLgy3NrqdkM1k/export?format=pdf',
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
@@ -104,9 +105,9 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilePic,
-  description: `I'm a technology generalist who believes in finding the right solution to fit the needs to the business.
+  description: `I'm a software architect and full-stack engineer with 20+ years of experience building end-to-end systems for startups and large enterprises. I design and build cloud-native distributed systems, SaaS integrations and high-scale platforms, with security and compliance (HIPAA, SOC 2, GDPR) built in from the start.
   
-  I've built microservices and monoliths, coded in Java, .NET, Python, and JavaScript. I've designed databases in Oracle, Postgres, MySQL, Mongo, and BigTable. I've deployed custom-built solutions and vendor apps. I've built REST services and GraphQL endpoints.
+  I'm known for leading cross-team design, mentoring engineers and bridging the gap between product and engineering. I've worked in Finance, Healthcare, and SaaS, and I've led a team's shift to AI-native development with Claude and Cursor.
   
   I get things done, be it at the world biggest banks, small cloud startups, and even on the NFL sidelines.
   
